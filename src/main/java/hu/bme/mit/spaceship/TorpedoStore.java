@@ -14,7 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
-  private final Random generator = new Random();
+  private final Random generator = new Random(); //RNG for simulating random failures, generates upon nextDouble() 
 
   public TorpedoStore(int numberOfTorpedos){
     this.torpedoCount = numberOfTorpedos;
